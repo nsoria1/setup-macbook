@@ -1,13 +1,17 @@
 # setup-macbook
 
-# steps
-install xcode
+## install xcode
+```
 xcode-select --install
+```
 
-install brew
+## install brew
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
-install apps
+## install apps
+```
 brew install zsh
 brew install --cask iterm2
 brew install --cask brave-browser
@@ -23,4 +27,11 @@ brew install --cask postman
 brew install --cask whatsapp
 brew install pyenv
 brew install jenv
+brew install --cask docker
+brew install --cask spotify
+```
 
+## oh my zsh
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
