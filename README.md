@@ -29,6 +29,7 @@ brew install pyenv
 brew install jenv
 brew install --cask docker
 brew install --cask spotify
+brew install --cask google-chat
 ```
 
 ## oh my zsh
